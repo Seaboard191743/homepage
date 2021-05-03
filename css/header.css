@@ -16,8 +16,8 @@
   font-size: clamp(1.2rem, 1.7rem, 3vw);
 }
 .header__subtitle {
-  font-size: clamp(1.2rem, 1.7rem, 3vw);
-  letter-spacing: 0.25rem;
+  font-size: clamp(1.2rem, 1.4rem, 2vw);
+  letter-spacing: 0.2rem;
   color: var(--primaryFontColor);
 }
 li a {

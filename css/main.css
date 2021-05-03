@@ -11,7 +11,11 @@ body {
 .par {
   font-size: var(--fontSize);
 }
-.about > * {
+.header__contacts {
+  list-style: none;
+}
+.about > *,
+.par {
   color: var(--primaryFontColor);
 }
 .about__avatar {
@@ -75,7 +79,7 @@ body {
 }
 .timeline--hor {
   width: min(600px, 100%);
-  height: 50px;
+  height: 60px;
   border-bottom: 1px solid var(--primaryFontColor);
   display: none;
 }
@@ -211,8 +215,8 @@ body {
     height: 480px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .slider {
-    height: 520px;
+    height: 540px;
   }
 }
