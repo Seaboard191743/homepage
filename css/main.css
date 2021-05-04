@@ -46,6 +46,9 @@ body {
 .heading--mg {
   margin-bottom: 1rem;
 }
+.heading-pattern {
+  display: none;
+}
 .slider {
   width: min(600px, 100%);
   height: 400px;
