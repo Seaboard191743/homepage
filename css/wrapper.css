@@ -1,0 +1,7 @@
+.wrapper {
+  width: min(940px, 100%);
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  background: var(--primaryColor);
+}
